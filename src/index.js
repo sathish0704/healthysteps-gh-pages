@@ -8,15 +8,15 @@ import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 import "@fontsource/roboto";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   // <React.StrictMode>
-  <BrowserRouter basename="/healthysteps">
+  <HashRouter basename="/">
     <App />
-  </BrowserRouter>,
+  </HashRouter>,
   {
     /* </React.StrictMode> */
   }
